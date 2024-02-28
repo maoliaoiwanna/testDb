@@ -35,7 +35,7 @@ jobs:
 
     - name: print output
       run: |
-        ls -lha .
+        ls -la .
 
     - name: update release
       uses: ncipollo/release-action@v1
